@@ -1,0 +1,53 @@
+\documentclass{article}
+
+\usepackage{mla13}
+% template https://www.overleaf.com/latex/templates/mla-style-extended-paper-template/ndkfvdtvpydy
+
+\title{
+	%title%
+}
+\firstname{
+	%first_name%
+}
+\lastname{
+	%last_name%
+}
+\professor{
+	%teacher%
+}
+\class{
+	%class%
+}
+\date{
+	%date%
+}
+\sources{
+	%sources%
+}
+
+\begin{document}
+% First create the title page on its own.
+% \maketitlepage
+% \newpage
+
+% % Then create the table of contents on its own.
+% \tableofcontents
+% \newpage
+
+% % Finally create the abstract on its own.
+% \begin{abstract}
+	
+% \end{abstract}
+% \newpage
+
+% Paper content begins here.
+\makeheader	% Adds the MLA-Style information
+\maketitle	% Redefined to use MLA-Style
+
+%body%
+
+% Put the works-cited on a separate page.
+\newpage
+\makeworkscited
+
+\end{document}
